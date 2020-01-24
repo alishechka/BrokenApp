@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Broken App</string>
+    <string name="your_name">Your name</string>
+    <string name="go_to_next_activity">Go to next activity</string>
+    <string name="welcome_to_forth_activity">Welcome to Forth Activity</string>
+    <string name="enter_name">Enter name</string>
+</resources>
