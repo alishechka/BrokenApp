@@ -20,13 +20,13 @@
         android:id="@+id/btn_goToSecondActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to next Activity" />
+        android:text="@string/go_to_next_activity" />
 
     <Button
         android:id="@+id/btn_showToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Toast" />
+        android:text="@string/show_toast" />
 
 
 </LinearLayout>

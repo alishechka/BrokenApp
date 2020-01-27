@@ -4,4 +4,6 @@
     <string name="go_to_next_activity">Go to next activity</string>
     <string name="welcome_to_forth_activity">Welcome to Forth Activity</string>
     <string name="enter_name">Enter name</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="dismiss_progress">Dismiss progress</string>
 </resources>

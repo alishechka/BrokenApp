@@ -15,9 +15,9 @@
         android:text="@string/your_name" />
 
     <Button
-        android:id="@+id/btn_activitySecond"
+        android:id="@+id/btn_goToThirdActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To next Activity" />
+        android:text="@string/go_to_next_activity" />
 
 </LinearLayout>

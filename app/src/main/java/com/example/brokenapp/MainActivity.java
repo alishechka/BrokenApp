@@ -12,7 +12,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private EditText nameText;
-    private Button goToNextActivity,btnShowToast;
+    private Button goToNextActivity, btnShowToast;
+    public final static String NAME_KEY = "name";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         goToNextActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!nameText.getText().toString().trim().isEmpty()){
-                    Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                if (!nameText.getText().toString().trim().isEmpty()) {
+                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 
-                    intent.putExtra("name",nameText.getText().toString());
+                    intent.putExtra(NAME_KEY, nameText.getText().toString());
 
                     startActivity(intent);
                 }
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btnShowToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Hi! Thanks for clicking Toast", Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "Hi! Thanks for clicking Toast", Toast.LENGTH_SHORT).show();
             }
         });
 

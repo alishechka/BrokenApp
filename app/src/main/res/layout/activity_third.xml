@@ -9,19 +9,19 @@
     tools:context=".ThirdActivity">
 
     <ProgressBar
-        android:id="@+id/pb_progress_activityThird"
+        android:id="@+id/pb_progressActivityThird"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
 
     <Button
-        android:id="@+id/btn_third_dismiss"
-        android:text="Dismiss progress"
+        android:id="@+id/btn_dismissProgress"
+        android:text="@string/dismiss_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btn_thirdActivity_next_activity"
+        android:id="@+id/btn_goToFourthActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/go_to_next_activity"/>
